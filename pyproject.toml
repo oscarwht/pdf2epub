@@ -1,0 +1,12 @@
+[project]
+name = "pdf2epub"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "marker-pdf==1.10.2",
+    "transformers==4.57.6",
+    "markdown==3.10.2",
+    "latex2mathml==3.79.0",
+]
